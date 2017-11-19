@@ -1,0 +1,15 @@
+<div [formGroup]="formGroup" class="ui-g">
+    <div class="ui-g-12">
+        <label class="display-block">Calendar</label>
+        <p-calendar formControlName="calendar"></p-calendar>
+    </div>
+
+    <div class="ui-g-12">
+        <label class="display-block">AutoComplete</label>
+        <p-autoComplete formControlName="city"></p-autoComplete>
+    </div>
+
+    <div class="ui-g-12">
+        <button pButton type="button" (click)="showLog()" label="Show log"></button>
+    </div>
+</div>
